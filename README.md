@@ -12,8 +12,8 @@ Welcome to the Teaching School Clone Website project! This repository contains t
 
 ## Technologies Used
 
-🔧 **HTML:** Used for structuring the web pages.
+🔧 **HTML**
 
-🎨 **CSS:** Utilized for styling and enhancing the visual appearance of the website.
+🎨 **CSS**
 
-🚀 **JavaScript:** Implemented for interactive features and dynamic content.
+🚀 **PHP** 
