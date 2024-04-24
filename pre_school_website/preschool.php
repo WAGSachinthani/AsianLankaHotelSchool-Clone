@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="preschool.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pre-School Teacher Training Course</title>
-    <style>
-        
-    </style>
+
 </head>
 <body>
     <header>
@@ -17,12 +16,15 @@
                 <img src="logo.png" alt="Logo">
             </div>
 
-            <ul class="dropdown">
-                    <div class="dropdown">
-                        <a href="#">English</a>
-                        <a href="#">Sinhala</a>
-                        <a href="#">Tamil</a>
-                    </div>
+            <div class="language">      
+                <select name="language" id="language">
+                    <option value="sinhala">English </option>
+                    <option value="tamil">සිංහල</option>
+                    <option value="tamil">தமிழ்</option>
+                </select>
+            </div>
+
+
             </ul>
             <ul class="navbar">
                 <li><a href="#home">Home</a></li>
@@ -34,45 +36,48 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <h1>Child Care Center Operations N.V.Q. Level – 4</h1>
+
+        
     </header>
 
-    <section id="header">
-        <h2>Pre-School Teacher & Early Childhood Development (N.V.Q Level 4)</h2>
-        <?php
-       
-        ?>
+    <div class="photo">
+        <img class="slide1" src="social\slide1.webp" alt="photo">
+        <div class="text-overlay">
+            <p class="main"><b>Child Care Center Operations N.V.Q. Level – 4</b></p>
+            <p class="map">Home &gt; Vocational Courses &gt; Child Care Center Operations N.V.Q. Level – 4</p>
+        </div>
+    </div>
+
+
+
+        
+    
+    <section class="course-info">
+        <div class="info-box-1">
+            <p>Course Fee : Rs 99,900</p>
+            
+        </div>
+        <div class="info-box-2">
+            <p>Course Duration (Months) : 06 </p>
+            
+            
+            
+        </div>
     </section>
 
-    <section id="fee">
-        <h3>Course Fee : Rs 99,900</h3>
-
-        <?php
-       
-        ?>
-    </section>
-
-    <section id="duration">
-        <h3>Course Duration (Months) : 06</h3>
-
-        <?php
-       
-        ?>
-    </section>
 
     <section id="content">
-        <h3>Course Content</h3>
-            <ul class="topics">
-                <li>Maintain Housekeeping Standards</a></li>
-                <li>Arrange Physical Environment</a></li>
-                <li>Maintain Health, Safety & Effective Environment</a></li>
-                <li>Provide Food & Beverages</a></li>
-                <li>Provide Physical Care</a></li>
-                <li>Foster Holistic Development of Children</a></li>
-                <li>Administer Medications & Provide First Aids</a></li>
-                <li>Carry out Child Care Centre Administration Activities</a></li>
-                <li>Maintain Professionalism</a></li>
-                <li>Care of a Child With Special Needs</a></li>
+        <p><b>Course Content</b></p>
+                <li>Maintain Housekeeping Standards</a></li><br>
+                <li>Arrange Physical Environment</a></li><br>
+                <li>Maintain Health, Safety & Effective Environment</a></li><br>
+                <li>Provide Food & Beverages</a></li><br>
+                <li>Provide Physical Care</a></li><br>
+                <li>Foster Holistic Development of Children</a></li><br>
+                <li>Administer Medications & Provide First Aids</a></li><br>
+                <li>Carry out Child Care Centre Administration Activities</a></li><br>
+                <li>Maintain Professionalism</a></li><br>
+                <li>Care of a Child With Special Needs</a></li><br>
             </ul>
     </section>
 
@@ -80,24 +85,43 @@
         <button>Register Now</button>
     </section>
 
-    <section>
-        <div class="logo-footer">
-            <img src="logo.png" alt="Logo">
-        </div>
-    </section>
+
     <br>
 
  
     <footer>
-        <div class="social-icons">
+        <div class=footer-content>
+            <section>
+                <div class="logo-footer">
+                    <img src="logo.png" alt="Logo">
+                </div>
+            </section>
+            <br>
+            <ul class="footer">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#vocational">Vocational</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#programs">Our Programs</a></li>
+                <li><a href="#application">Application</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="line"></div>
+          
+            <br>
+            <div class="social-icons">
                 <a href="#" class="icon"><img src="social\fb.webp" alt="Facebook"></a>
                 <a href="#" class="icon"><img src="social\linkdn.png" alt="Twitter"></a>
                 <a href="#" class="icon"><img src="social\inster.webp" alt="Instagram"></a>
                 <a href="#" class="icon"><img src="social\tiktok.png" alt="LinkedIn"></a>
                 <a href="#" class="icon"><img src="social\yout.webp" alt="LinkedIn"></a>
                 <a href="#" class="icon"><img src="social\whatsapp.jpg" alt="LinkedIn"></a>
+            </div>
+            <br>
+            <p class="copy">© 2024 Asia Lanka Hotel School</p>
         </div>
-        <p>© 2024 Asia Lanka Hotel School</p>
     </footer>
+    <br>
+    <br>
 </body>
 </html>
